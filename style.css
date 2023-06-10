@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+.text-center{
+    text-align: center;
+    font-family: Ubuntu, sans-serif;
+}
+.container{
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    padding: 20px;
+    margin : 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    font-family: inherit;
+    width: 66px;
+}
+.row{
+    margin: 8px 0;
+}
+.type{
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 38px;
+    border: 2px solid orange;
+}
